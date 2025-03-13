@@ -7,9 +7,20 @@ function agregarAmigo()
 //Capturamos nombre
 let nombreAmigo = document.getElementById('amigo').value;
 console.log('Nombre digitado:', nombreAmigo);
-//Agregamos nombre a Array
-nombreAmigos.push(`${nombreAmigo}`);
-console.log(nombreAmigos.length);
-
-
+ if (nombreAmigo!='')
+ {
+ //Agregamos nombre a Array
+ nombreAmigos.push(`${nombreAmigo}`);
+ console.log(nombreAmigos.length);
+ //Limpiar el imput y seleccionar el input
+ let selectInput = document.querySelector('#amigo');
+ selectInput.value='';
+ console.log(selectInput);
+ selectInput.select();
+ }
+ else
+ {
+ console.log("campo vacio");
+ alert("Por favor, inserte un nombre.");
+ }
 }

@@ -17,10 +17,35 @@ console.log('Nombre digitado:', nombreAmigo);
  selectInput.value='';
  console.log(selectInput);
  selectInput.select();
+ actualizarLista(nombreAmigos);
  }
  else
  {
  console.log("campo vacio");
  alert("Por favor, inserte un nombre.");
+ }
+}
+//Crear funcion para actualizar lista de amigos
+function actualizarLista(nombreAmigos) 
+{
+//Selecciono el elemento ul o lista
+var listado =document.getElementById('listaAmigos');
+//Limpio la listapara que no se repitan elementos en pantalla
+listado.innerHTML = "";
+//Ciclo para recorrer array y mostrar elementos en lista
+for (let inicio = 0; inicio < nombreAmigos.length; inicio++) 
+ {
+ //Comprobacion de numeros seleccionados
+ console.log(inicio);
+ //Creamos elemento li
+ var agregarListado=document.createElement("li");
+ //Creamos variable para crear texto que alamacene el nombre
+ var nombre=document.createTextNode(nombreAmigos[inicio])
+ //Comprobamos nombre
+ console.log(nombreAmigos[inicio])
+ //Agregamos el nombre a el elemneto li
+ agregarListado.appendChild(nombre);
+ //Agregamos el li a la lista ul
+ listado.appendChild(agregarListado);
  }
 }

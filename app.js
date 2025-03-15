@@ -56,14 +56,30 @@ for (let posicion = 0; posicion < nombreAmigos.length; posicion++)
 //Crear la funcion para selecionar aleatoriamente un nombre del array
 function sortearAmigo() 
 {
-//Creamos el selecionador aleatorio mediante un numero
-let eleccion = Math.floor(Math.random()*nombreAmigos.length);  
-//Verificamos numero y nombre selecionado
-console.log(`Numero:${eleccion}, Nombre: ${nombreAmigos[eleccion]}`);
-//Mostramos el nombre selecionado en pantalla
-let idElemento = 'resultado';
-limpiarListas(idElemento);
-mostrarElementos(idElemento,nombreAmigos,eleccion);
+//Comprobamos si el array esta lleno
+if (nombreAmigos.length > 0) 
+{
+    if (nombreAmigos.length > 1)
+    {
+    //Creamos el selecionador aleatorio mediante un numero
+    let eleccion = Math.floor(Math.random()*nombreAmigos.length);  
+    //Verificamos numero y nombre selecionado por consola
+    console.log(`Numero:${eleccion}, Nombre: ${nombreAmigos[eleccion]}`);
+    //Mostramos el nombre selecionado en pantalla
+    let idElemento = 'resultado';
+    limpiarListas(idElemento);
+    mostrarElementos(idElemento,nombreAmigos,eleccion);
+    }
+    else
+    {
+    alert("Debes ingresar almenos un nombre más para sortear")
+    }
+} 
+else 
+{
+alert("Debes ingresar almenos 2 nombres para sortear")    
+}
+
 }
 //Funcion para crear elementos li
 function mostrarElementos(elementId,lista,posicion) 

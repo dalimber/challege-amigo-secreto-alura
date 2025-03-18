@@ -2,7 +2,7 @@
 
 <em> # SORTEO DE AMIGO SECRETO </em>
 
-##Índice
+## Índice
 
 *[Título e imagen de portada](#Título-e-imagen-de-portada)
 

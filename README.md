@@ -12,7 +12,7 @@
 
 * [Estado del proyecto](#Estado-del-proyecto)
 
-* [Características de la aplicación y demostración](#Características-de-la-aplicación-y-demostración)
+* [Características de la aplicación](#Características-de-la-aplicación)
 
 * [Acceso al proyecto](#acceso-proyecto)
 
@@ -22,8 +22,6 @@
 
 * [Personas-Desarrolladores del Proyecto](#personas-desarrolladores)
 
-* [Licencia](#licencia)
-
 * [Conclusión](#conclusión)
 
 ## Descripción del proyecto
@@ -32,17 +30,42 @@
 :construction: Proyecto en construcción :construction:
 </h4>
 
+## :hammer: Características de la aplicación
+
+- `Funcionalidad 1`: Ingresa numero ilimitado de nombres para sortear.
+- `Funcionalidad 1a`: Debes ingresar un nombre en el campo para agregarlo.
+- `Funcionalidad 2`: Debes ingresar al menos 2 nombres para iniciar el sorteo
+- `Funcionalidad 2a`: Si ingresas un nombre no se puede generar el sorteo
+- `Funcionalidad 3`: Funcion para no repetir los nombres sorteados en desarrollo.
+
 ## 📁 Acceso al proyecto
 
-**Indica cómo se puede descargar o acceder al código fuente del proyecto, ya sea proyecto inicial o final**
+**Puedes acceder al proyecto desde el siguiente link :**
 
-## 🛠️ Abre y ejecuta el proyecto
+### 🛠️ Abre y ejecuta el proyecto
 
-**Muestra las instrucciones necesarias para abrir y ejecutar el proyecto**
+- `1.`: Descarga la carpeta con los archivos
+* README
+* iNDEX.HTML
+* APP.JS
+* STYLE.CSS
+- `2.`: Ingresa al archivo INDEX.HTML
 
-## :hammer:Funcionalidades del proyecto
+## Tecnologías utilizadas
 
-- `Funcionalidad 1`: descripción de la funcionalidad 1
-- `Funcionalidad 2`: descripción de la funcionalidad 2
-- `Funcionalidad 2a`: descripción de la funcionalidade 2a relacionada con la funcionalidad 2
-- `Funcionalidad 3`: descripción de la funcionalidad 3
+* [Visual Studio Code]
+* [JavaScript]
+* [HTML]
+* [CSS]
+
+
+## Personas Contribuyentes
+
+@dalimber
+
+## Personas-Desarrolladores del Proyecto
+
+| [<img src="https://avatars.githubusercontent.com/u/37356058?v=4" width=115><br><sub>Dalimber Andrade</sub>](https://github.com/dalimber) |
+| :---: | :---: | :---: |
+
+## Conclusión

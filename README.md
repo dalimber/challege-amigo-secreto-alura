@@ -26,6 +26,10 @@
 
 ## Descripción del proyecto
 
+El proyecto es una aplicacion HTML que permite realizar un sorteo para el compartir del "Amigo Secreto", en el cual puede ingresar nombres indistintamente, sin embrago debes ingresar almenos 2 nombres para poder iniciar el sorteo.
+
+## Estado del proyecto
+
 <h4 align="center">
 :construction: Proyecto en construcción :construction:
 </h4>
@@ -37,6 +41,8 @@
 - `Funcionalidad 2`: Debes ingresar al menos 2 nombres para iniciar el sorteo
 - `Funcionalidad 2a`: Si ingresas un nombre no se puede generar el sorteo
 - `Funcionalidad 3`: Funcion para no repetir los nombres sorteados en desarrollo.
+- `Funcionalidad 4`: Para reiniciar el sorteo e ingresar nuevos nombres refrescar la pagina.
+
 
 ## 📁 Acceso al proyecto
 
@@ -45,11 +51,16 @@
 ### 🛠️ Abre y ejecuta el proyecto
 
 - `1.`: Descarga la carpeta con los archivos
-* README
-* iNDEX.HTML
-* APP.JS
-* STYLE.CSS
+    * README
+    * iNDEX.HTML
+    * APP.JS
+    * STYLE.CSS
 - `2.`: Ingresa al archivo INDEX.HTML
+- `3.`: Digita el nombre y dale click al boton "Agregar".
+- `4.`: Ingresa al menos 2 nombres.
+- `5.`: Una vez digitado todos los nombres, presiona el boton sortear.
+- `6.`: Para reinciar los sorteos, reecara la pagina.
+
 
 ## Tecnologías utilizadas
 
@@ -65,7 +76,8 @@
 
 ## Personas-Desarrolladores del Proyecto
 
-| [<img src="https://avatars.githubusercontent.com/u/37356058?v=4" width=115><br><sub>Dalimber Andrade</sub>](https://github.com/dalimber) |
-| :---: | :---: | :---: |
+| [<img src="https://avatars.githubusercontent.com/u/195831080?v=4" width=115><br><sub>Dalimber Andrade</sub>](https://github.com/dalimber) |
 
 ## Conclusión
+
+El proyecto Realiza el sorteo de los nombres ingresados por el usuario que deben ser almenos 2 nombres, los cuales se almacenan en un array, mediante la accion del boton agregar. Mediante el boton sortear se realiza el sorteo de los nombres que se han ingresado hasta el momento.
